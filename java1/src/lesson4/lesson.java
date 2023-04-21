@@ -1,6 +1,7 @@
+
 package lesson4;
 
-public class Curriculum_New_1_5 {
+public class lesson {
 
 	private static final char a = 0;
 
