@@ -1,47 +1,91 @@
 package lesson4;
 
 public class Curriculum_New_1_5 {
+
+	private static final char a = 0;
+
 	public static void main(String[] args) {
-//		問１）
-//		変数 x を宣言し、「3」を代入して下さい。
-//		変数 x に自己代入を使って「20」を掛け算して下さい。
-//		その後 x の値をコンソールに表示して下さい。
-		
-//		問１）の記述↓
-		int x = 3;
-		x = x *= 20;
-		System.out.println("変数xの値：" + x); 
-		System.out.println();
 
-//		問２）
-//		以下のプログラムを作成してください。
-//		①int 型の変数 i に 100 を代入する。
-//		②インクリメント演算子を適用して数値を 1 増やす。
-//		③コンソールに変数 i の値を表示する。
-//		④デクリメント演算子を適用して数値を 1 減らす。
-//		⑤コンソールに変数 i の値を表示する。
+		// Q1 下記9個をローカル変数として宣言のみしてください
+		//		・バイト型・短整数型・整数型・長整数型
+		byte byte_number;
+		short short_number;
+		int int_number;
+		long long_number;
+		// 	・単精度浮動小数点数型・倍精度浮動小数点数型
+		float float_number;
+		double double_number;
+		//   	・文字型・文字列型
+		char char_value;
+		String String_value;
+		//	 	・ブーリアン型 
+		boolean boolean_judge;
+		// Q2 それぞれのクラス変数をローカル内でそれぞれの初期値を代入し初期化してください
+		byte_number = 1;
+		short_number = 1;
+		int_number = 1;
+		long_number = 1;
+		float_number = 1;
+		double_number = 1;
+		char_value = 1;
+		String_value = "";
+		boolean_judge = false;
 
-//		問２）の記述↓
-		int i = 100;
-		i++;
-		System.out.println("i++値出力結果：" + i);
-		i--;
-		System.out.println("i--値出力結果：" + i);
-		System.out.println();
+		// Q3 初期化をしたそれぞれの変数に下記の値を代入してください
 
-//		問３）
-//		下記の例のような文章をコンソールに出力して下さい。
-//		但し、年齢の部分は乱数を使用し実行毎に結果が変わるようにして下さい。
-//		※数字は0～100までの間で表示されるようにしてください。
-//		例）
-//		あなたの年齢を予想します。
-//		あなたの年齢はおそらく〇〇歳ですね？
-		
-//		問３）の記述↓
-		double double_number = Math.random()*100+ 1;
-        int int_number =(int)double_number;
-        System.out.println("あなたの年齢を予想します。");
-        System.out.println("あなたの年齢はおそらく" + int_number + "歳ですね？");
+		// ・バイト型                 10
+		byte_number = 10;
+		// ・短整数型                 100
+		short_number = 100;
+		// ・整数型                	 1000
+		int_number = 1000;
+		// ・長整数型                 10000
+		long_number = 10000;
+		// ・単精度浮動小数点数型   	 9.5
+		float_number = (float) 9.5;
+		// ・倍精度浮動小数点数型		 10.5
+		double_number = 10.5;
+		// ・文字型                   a
+		char_value = a;
+		// ・文字列型              	 ハロー
+		String_value = "ハロー";
+		// ・ブーリアン型          	 true
+		boolean_judge = true;
+
+		// Q4 下記の通りにコンソール出力されるようにしてください
+		// 必ず変数を使用すること
+
+		// 11110
+		long answer1 = byte_number + short_number + int_number + long_number;
+		System.out.println(answer1);
+		// 20.0
+		double answer2 = float_number + double_number;
+		System.out.println(answer2);
+		// a ハロー true
+		StringBuilder answer3 = new StringBuilder("a");
+		answer3.append(String_value);
+		answer3.append(boolean_judge);
+		System.out.println(answer3);
+		// 11130.0                    数字を全て足す
+		double answer4 = answer1 + answer2;
+		System.out.println(answer4);
+		// 10000000000                小数点以外の数字を全てかける
+		long answer5 = byte_number * short_number * int_number * long_number;
+		System.out.println(answer5);
+		// 0.105                      10.5割る100をする
+		double answer6 = double_number / short_number;
+		System.out.println(answer6);
+		// -90                        10引く100をする
+		int answer7 = byte_number - short_number;
+		System.out.println(answer7);
+
+		// Q5 
+		// 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
+		//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
+		int num = 20;
+		int num1 = 23;
+		System.out.println("ハローJAVA" + (num + num1));
 
 	}
+
 }
