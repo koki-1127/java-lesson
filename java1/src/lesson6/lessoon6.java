@@ -28,6 +28,7 @@ public class lessoon6 {
 		int i = 100;
 		i++;
 		System.out.println("i++値出力結果：" + i);
+		
 		i--;
 		System.out.println("i--値出力結果：" + i);
 		System.out.println();
