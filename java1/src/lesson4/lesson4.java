@@ -3,7 +3,6 @@ package lesson4;
 public class lesson4 {
 
 	public static void main(String[] args) {
-
 		// Q1 下記9個をローカル変数として宣言のみしてください
 		
 		//・バイト型・短整数型・整数型・長整数型
@@ -120,5 +119,4 @@ public class lesson4 {
 		System.out.println("ハローJAVA" + (num + num1));
 
 	}
-
 }
