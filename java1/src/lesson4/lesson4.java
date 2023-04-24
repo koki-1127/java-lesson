@@ -25,14 +25,14 @@ public class lesson4 {
 		
 		//Q2 それぞれのクラス変数をローカル内でそれぞれの初期値を代入し初期化してください
 		
-		byte_number = 1;
-		short_number = 1;
-		int_number = 1;
-		long_number = 1;
-		float_number = 1;
-		double_number = 1;
-		char_value = ' ';
-		String_value = " ";
+		byte_number = 0;
+		short_number = 0;
+		int_number = 0;
+		long_number = 0L;
+		float_number = 0.0f;
+		double_number = 0.0d;
+		char_value = '\u0000';
+		String_value = null;
 		boolean_judge = false;
 
 		//Q3 初期化をしたそれぞれの変数に下記の値を代入してください
