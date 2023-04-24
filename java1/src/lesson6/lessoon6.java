@@ -12,9 +12,8 @@ public class lessoon6 {
 
 		//		問１）の記述↓
 		int x = 3;
-		x = x *= 20;
-		System.out.println("変数xの値：" + x); 
-		System.out.println();
+		x = x * 20;
+		System.out.println(x); 
 
 		//		問２）
 		//		以下のプログラムを作成してください。
@@ -27,11 +26,10 @@ public class lessoon6 {
 		//		問２）の記述↓
 		int i = 100;
 		i++;
-		System.out.println("i++値出力結果：" + i);
+		System.out.println(i);
 		
 		i--;
-		System.out.println("i--値出力結果：" + i);
-		System.out.println();
+		System.out.println(i);
 
 		//		問３）
 		//		下記の例のような文章をコンソールに出力して下さい。
