@@ -13,7 +13,7 @@ public class lesson7 {
 		//		問1の回答）
 		int i = 3;
 
-		double d = (int) i;
+		double d = i;
 
 		System.out.println(i);
 		System.out.println(d);
@@ -28,6 +28,7 @@ public class lesson7 {
 		//		問2の回答）
 		double pi = 3.14;
 		pi *= 3;
+		
 		System.out.println(pi);
 
 		int integer = (int) pi;
