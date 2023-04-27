@@ -21,9 +21,8 @@ public class lesson8 {
 		int d = 10;
 		boolean result_2 = a != b;
 		System.out.println(result_2);
-
 		//問３）
-		//以下の変数を使ってboolean型変数 result_3 に
+		//以下の変数を使ってboolean型変数 result_3 　　　に
 		//「変数 e の値は10より大きい かつ 変数 f の値は10未満」という条件式を代入して下さい。
 		//boolean型変数 result_3 をコンソールに出力して下さい。
 		int e = 12;
