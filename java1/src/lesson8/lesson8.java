@@ -21,7 +21,7 @@ public class lesson8 {
 		int c = 5;
 		int d = 10;
 		boolean result_2;
-		result_2 = a != b;
+		result_2 = c != d;
 		System.out.println(result_2);
 		
 		//問３）
