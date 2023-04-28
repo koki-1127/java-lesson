@@ -27,8 +27,8 @@ public class lesson9 {
 		//とコンソールに出力して下さい。
 
 		//問２の回答）
-		String name = "こうき";
-		int score = (int)(Math.random() * 100 + 1);
+		String name = "山田";
+		int score = (int)(Math.random() * 100) + 1;
 		if ( score <= 40 ) {
 			System.out.println( name + "さんは" + score + "点です。もう少し頑張りましょう。");
 		} else if( score >= 40 && score <= 60) {
@@ -48,13 +48,13 @@ public class lesson9 {
 		//④もし変数 isTired が 0 であれば、変数 study を利用して「カリキュラムを続けます。」と表示する。
 
 		//問３の回答）
-		int isTired = 1;
+		int isTired = 0;
 		String stuby = "カリキュラム";
-		if ( isTired == 1) {
+		if ( isTired == 0) {
 			System.out.println("私はとても元気です。");
 		}else 
 			System.out.println("私は疲れています。");
 
-		System.out.println(( isTired == 1 ) ?  stuby + "を続けます。" : stuby + "しません" );
+		System.out.println(( isTired == 0 ) ?  stuby + "を続けます。" :"" );
 	}
 }
