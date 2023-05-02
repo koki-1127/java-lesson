@@ -32,5 +32,4 @@ public class lesson10_2 {
 			System.out.println();
 		}
 	}
-
 }
