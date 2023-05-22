@@ -12,7 +12,7 @@ public class Qes7 {
 		// n人の入力宣言
 		Scanner scan = new Scanner(System.in);
 		// n人の入力受け取り
-		double n= scan.nextInt();
+		double n = scan.nextInt();
 		
 		// マップの生成
 		Map<Integer, Map<String,Integer>> score_map = new HashMap<>();

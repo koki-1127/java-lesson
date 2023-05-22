@@ -19,14 +19,12 @@ public class Qes4 {
 				 [概要] 処理の合間に || を入れる処理
 				 [詳細] 8までは || を間に入れて[ 01 * 01 = 01 ]の表示で出力
 				 ---------------------------------------------- */
-				if (j < 9 ) {
-					System.out.print(String.format("%02d", i) + " * " + String.format("%02d",j) 
-									+ " = " + String.format("%02d", answer) + " || ");
+				if (j < 9) {
+					System.out.print(String.format("%02d * %02d = %02d || ", i, j, answer));
 				} 
 				// 9の計算式のみ || を入れず出力
 				else {
-					System.out.print(String.format("%02d", i) + " * " + String.format("%02d",j) 
-									+ " = " + String.format("%02d", answer));
+					System.out.print(String.format("%02d * %02d = %02d", i, j, answer));
 				}
 			}
 			// 9まで回したら改行

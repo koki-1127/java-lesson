@@ -18,15 +18,12 @@ public class Qes5 {
 				 [概要] 処理の合間に || を入れる処理
 				 [詳細] 19までは || を間に入れて[ 001 * 001 = 001 ]の表示で出力
 				 ---------------------------------------------- */
-				if (j < 20 ) {
-					System.out.print(String.format("%03d", j) + " * " + String.format("%03d", i)
-									+ " = " + String.format("%03d", answer) + " || ");
+				if (j < 20) {
+					System.out.print(String.format("%03d * %03d = %03d || ", i, j, answer));
 				} 
-				
 				// 20の計算式のみ || を入れず出力
 				else {
-					System.out.print(String.format("%03d", j) + " * " + String.format("%03d", i)
-									+ " = " + String.format("%03d", answer));
+					System.out.print(String.format("%03d * %03d = %03d", i, j, answer));
 				}
 			}
 			// 20まで回したら改行

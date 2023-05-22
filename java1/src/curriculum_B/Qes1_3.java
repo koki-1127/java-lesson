@@ -64,7 +64,7 @@ public class Qes1_3 {
 					// じゃんけんの処理
 					judge = JankenJudge(playerhand,computerhand);
 					// じゃんけんの回数を+1でカウントしていく処理
-					matchCount += 1;
+					matchCount ++;
 					
 					/* ----------------------------------------------
 					 [概要] 手の出力

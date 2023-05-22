@@ -26,19 +26,19 @@ public class Qes6 {
 			switch(ones) {
 			case "パソコン","冷蔵庫","扇風機","洗濯機","加湿器":
 				String str;
-				str = ones.matches("パソコン") ?  "\nパソコンの残り台数は" + random_num + "台です\n"
-					:ones.matches("冷蔵庫") ? "冷蔵庫の残り台数は" + random_num + "台です\n"
-					:ones.matches("扇風機") ? "扇風機の残り台数は" + random_num + "台です\n"
-					:ones.matches("洗濯機") ? "洗濯機の残り台数は" + random_num + "台です\n"
-					:ones.matches("加湿器") ? "加湿器の残り台数は" + random_num + "台です\n"
-					:"";
+				str = ones.matches("パソコン") ? "\nパソコンの残り台数は" + random_num + "台です\n"
+					: ones.matches("冷蔵庫") ? "冷蔵庫の残り台数は" + random_num + "台です\n"
+					: ones.matches("扇風機") ? "扇風機の残り台数は" + random_num + "台です\n"
+					: ones.matches("洗濯機") ? "洗濯機の残り台数は" + random_num + "台です\n"
+					: ones.matches("加湿器") ? "加湿器の残り台数は" + random_num + "台です\n"
+					: "";
 				// メッセージ表示
 				System.out.println(str);
 				break;
 				
 			case "テレビ","ディスプレイ":
-				str = ones.matches("テレビ") ?  "テレビ残り台数は" + random_num + "台です\n"
-					:"ディスプレイ残り台数は" + random_num + "台です\n";
+				str = ones.matches("テレビ") ? "テレビ残り台数は" + random_num + "台です\n"
+					: "ディスプレイ残り台数は" + random_num + "台です\n";
 				// メッセージ表示
 				System.out.println(str);
 				break;
