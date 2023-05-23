@@ -37,8 +37,8 @@ public class Qes6 {
 				break;
 				
 			case "テレビ","ディスプレイ":
-				str = ones.matches("テレビ") ? "テレビ残り台数は" + random_num + "台です\n"
-					: "ディスプレイ残り台数は" + random_num + "台です\n";
+				str = ones.matches("テレビ") ? "テレビの残り台数は" + random_num + "台です\n"
+					: "ディスプレイの残り台数は" + random_num + "台です\n";
 				// メッセージ表示
 				System.out.println(str);
 				break;
