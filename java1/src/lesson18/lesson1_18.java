@@ -23,7 +23,7 @@ public class lesson1_18 {
 	// Q3：引数として整数の配列を渡すと、受け取った値を順番にコンソールに出力するメソッドを作成してください
 	
 	public static void numbers(int[] box) {
-		
+		// 引数の数for文を回して出力する処理
 		for (int i = 0; i < box.length; i++){
 			
 			// メッセージ表示
