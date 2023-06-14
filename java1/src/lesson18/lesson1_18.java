@@ -109,8 +109,9 @@ public class lesson1_18 {
         }
 	}
 	
+
+    // 作成したメソッドの呼び出し
 	public static void main(String[] args) {
-    // 作成したメソッドをここで呼び出してください
 		// Q1
 		print_data("Hello JavaSE ", 11);
 		
