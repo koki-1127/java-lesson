@@ -23,5 +23,4 @@ public class Animal {
 		String display = format.format(dateObj);
 		System.out.println(display);
 	}
-
 }
