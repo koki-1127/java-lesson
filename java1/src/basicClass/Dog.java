@@ -9,7 +9,7 @@ public class Dog {
 	public int num;
 
 	// Q3：Q1で作成した変数に「犬」を代入するコンストラクタを作成してください。
-	public Dog(String name) {
+	public Dog() {
 		this.name = "犬";
 	}
 	// Q4：Q2で作成した変数に引数を代入するコンストラクタを作成してください。

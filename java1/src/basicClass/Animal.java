@@ -8,7 +8,7 @@ public class Animal {
 	public static void main(String[] args) {
 
 		// Q1：Dogクラスを呼び出して変数に代入し、動物の名前をコンソールに出力してください。
-		Dog dogName = new Dog(null);
+		Dog dogName = new Dog();
 		System.out.println(dogName.name);
 
 		// Q2：Dogクラスを呼び出して変数に代入し、動物の数をコンソールに出力してください。
